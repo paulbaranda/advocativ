@@ -4,6 +4,16 @@ Rails.application.configure do
   # Code is not reloaded between requests.
   config.cache_classes = true
 
+# config/environments/production.rb
+  config.paperclip_defaults = {
+  :storage => :s3,
+  :s3_credentials => {
+    :bucket => ENV['advocativ'],
+    :access_key_id => ENV['AKIAJJGTJGHCOPKVDO4Q'],
+    :secret_access_key => ENV['PYgc1+F6f+q2aILUuX0QXjGr0EiZnIGbJotFHhcL']
+  }
+}
+
   # Eager load code on boot. This eager loads most of Rails and
   # your application in memory, allowing both threaded web servers
   # and those relying on copy on write to perform better.

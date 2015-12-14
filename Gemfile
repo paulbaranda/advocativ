@@ -21,6 +21,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem "paperclip", "~> 4.3"
+gem 'aws-sdk', '~> 2'
+
 
 group :production do
 	gem 'pg'
