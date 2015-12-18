@@ -15,3 +15,8 @@
 /log/*
 !/log/.keep
 /tmp
+
+
+development:
+  access_key_id: AKIAJJGTJGHCOPKVDO4Q
+  secret_access_key: APYgc1+F6f+q2aILUuX0QXjGr0EiZnIGbJotFHhcL
