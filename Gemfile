@@ -20,7 +20,7 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass', '~> 3.3.6'
-gem "paperclip", "~> 4.3"
+gem 'carrierwave'
 gem 'aws-sdk', '~> 2'
 
 
